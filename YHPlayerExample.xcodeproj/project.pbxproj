@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65634D8121042EAE00DF59E8 /* YHPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D8021042EAE00DF59E8 /* YHPlayer.m */; };
+		65634D8421042F0000DF59E8 /* YHPlayerTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D8321042F0000DF59E8 /* YHPlayerTopView.m */; };
+		65634D8721042F2D00DF59E8 /* YHPlayerBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D8621042F2D00DF59E8 /* YHPlayerBottomView.m */; };
+		65634D8A21042FCC00DF59E8 /* YHPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D8921042FCC00DF59E8 /* YHPlayerLayerView.m */; };
+		65634D8D2104302B00DF59E8 /* YHProgressSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D8C2104302B00DF59E8 /* YHProgressSlider.m */; };
+		65634D902104321C00DF59E8 /* YHPlayerFullScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D8F2104321C00DF59E8 /* YHPlayerFullScreenController.m */; };
+		65634D932104324800DF59E8 /* YHPlayerFailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D922104324800DF59E8 /* YHPlayerFailedView.m */; };
+		65634D962104327400DF59E8 /* YHPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 65634D952104327400DF59E8 /* YHPlayerModel.m */; };
+		65C5AAEF2102F0240031ECE3 /* YHPlayerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C5AAEE2102F0240031ECE3 /* YHPlayerExampleTests.m */; };
+		65C5AAFA2102F0240031ECE3 /* YHPlayerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C5AAF92102F0240031ECE3 /* YHPlayerExampleUITests.m */; };
+		65C5AB1621032C720031ECE3 /* YHPlayerExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65C5AB0821032C720031ECE3 /* YHPlayerExample.xcdatamodeld */; };
+		65C5AB1721032C720031ECE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C5AB0B21032C720031ECE3 /* Assets.xcassets */; };
+		65C5AB1821032C720031ECE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C5AB0C21032C720031ECE3 /* ViewController.m */; };
+		65C5AB1921032C720031ECE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C5AB0D21032C720031ECE3 /* LaunchScreen.storyboard */; };
+		65C5AB1A21032C720031ECE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C5AB0F21032C720031ECE3 /* Main.storyboard */; };
+		65C5AB1B21032C720031ECE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C5AB1121032C720031ECE3 /* main.m */; };
+		65C5AB1C21032C720031ECE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C5AB1221032C720031ECE3 /* AppDelegate.m */; };
+		65C5AB1D21032C720031ECE3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65C5AB1321032C720031ECE3 /* Info.plist */; };
+		65C5AB5B21035AAB0031ECE3 /* YHPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 65C5AB5A21035AAB0031ECE3 /* YHPlayer.bundle */; };
+		96F614FA57200BFA980EE9A2 /* libPods-YHPlayerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE1E075BBA2616D61475EAA /* libPods-YHPlayerExampleTests.a */; };
+		A2A59E4B9E2CAF77A2B27B79 /* libPods-YHPlayerExampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 090DE36C54F15690F2318426 /* libPods-YHPlayerExampleUITests.a */; };
+		DBB86420393C026118BA8940 /* libPods-YHPlayerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 861CA653159EF37347291C59 /* libPods-YHPlayerExample.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65C5AAEB2102F0240031ECE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C5AAC72102F0230031ECE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C5AACE2102F0230031ECE3;
+			remoteInfo = YHPlayerExample;
+		};
+		65C5AAF62102F0240031ECE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65C5AAC72102F0230031ECE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65C5AACE2102F0230031ECE3;
+			remoteInfo = YHPlayerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090DE36C54F15690F2318426 /* libPods-YHPlayerExampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHPlayerExampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A2D32ECA9322BC022C60FE /* Pods-YHPlayerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPlayerExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHPlayerExampleTests/Pods-YHPlayerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36D8D9015C926625888CB540 /* Pods-YHPlayerExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPlayerExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHPlayerExampleUITests/Pods-YHPlayerExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36EEF2B91793EE2648A3C24F /* Pods-YHPlayerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPlayerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHPlayerExample/Pods-YHPlayerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		538886C4AA01FAC84B657ECD /* Pods-YHPlayerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPlayerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHPlayerExample/Pods-YHPlayerExample.release.xcconfig"; sourceTree = "<group>"; };
+		65634D7F21042EAE00DF59E8 /* YHPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayer.h; sourceTree = "<group>"; };
+		65634D8021042EAE00DF59E8 /* YHPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayer.m; sourceTree = "<group>"; };
+		65634D8221042F0000DF59E8 /* YHPlayerTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayerTopView.h; sourceTree = "<group>"; };
+		65634D8321042F0000DF59E8 /* YHPlayerTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerTopView.m; sourceTree = "<group>"; };
+		65634D8521042F2D00DF59E8 /* YHPlayerBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayerBottomView.h; sourceTree = "<group>"; };
+		65634D8621042F2D00DF59E8 /* YHPlayerBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerBottomView.m; sourceTree = "<group>"; };
+		65634D8821042FCC00DF59E8 /* YHPlayerLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayerLayerView.h; sourceTree = "<group>"; };
+		65634D8921042FCC00DF59E8 /* YHPlayerLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerLayerView.m; sourceTree = "<group>"; };
+		65634D8B2104302B00DF59E8 /* YHProgressSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHProgressSlider.h; sourceTree = "<group>"; };
+		65634D8C2104302B00DF59E8 /* YHProgressSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHProgressSlider.m; sourceTree = "<group>"; };
+		65634D8E2104321C00DF59E8 /* YHPlayerFullScreenController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayerFullScreenController.h; sourceTree = "<group>"; };
+		65634D8F2104321C00DF59E8 /* YHPlayerFullScreenController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerFullScreenController.m; sourceTree = "<group>"; };
+		65634D912104324800DF59E8 /* YHPlayerFailedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayerFailedView.h; sourceTree = "<group>"; };
+		65634D922104324800DF59E8 /* YHPlayerFailedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerFailedView.m; sourceTree = "<group>"; };
+		65634D942104327400DF59E8 /* YHPlayerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayerModel.h; sourceTree = "<group>"; };
+		65634D952104327400DF59E8 /* YHPlayerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerModel.m; sourceTree = "<group>"; };
+		65C5AACF2102F0230031ECE3 /* YHPlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHPlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C5AAEA2102F0240031ECE3 /* YHPlayerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHPlayerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C5AAEE2102F0240031ECE3 /* YHPlayerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerExampleTests.m; sourceTree = "<group>"; };
+		65C5AAF02102F0240031ECE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C5AAF52102F0240031ECE3 /* YHPlayerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHPlayerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C5AAF92102F0240031ECE3 /* YHPlayerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHPlayerExampleUITests.m; sourceTree = "<group>"; };
+		65C5AAFB2102F0240031ECE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C5AB0921032C720031ECE3 /* YHPlayerExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YHPlayerExample.xcdatamodel; sourceTree = "<group>"; };
+		65C5AB0A21032C720031ECE3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65C5AB0B21032C720031ECE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C5AB0C21032C720031ECE3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65C5AB0E21032C720031ECE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65C5AB1021032C720031ECE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65C5AB1121032C720031ECE3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65C5AB1221032C720031ECE3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65C5AB1321032C720031ECE3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C5AB1421032C720031ECE3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65C5AB252103323F0031ECE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C5AB2E21033ED00031ECE3 /* YHPlayerConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHPlayerConst.h; sourceTree = "<group>"; };
+		65C5AB5A21035AAB0031ECE3 /* YHPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YHPlayer.bundle; sourceTree = "<group>"; };
+		81C31BEBE0958A2F5319C143 /* Pods-YHPlayerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPlayerExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHPlayerExampleTests/Pods-YHPlayerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		861CA653159EF37347291C59 /* libPods-YHPlayerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHPlayerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6710C1A8D0266D152183DD /* Pods-YHPlayerExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHPlayerExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHPlayerExampleUITests/Pods-YHPlayerExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DDE1E075BBA2616D61475EAA /* libPods-YHPlayerExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YHPlayerExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65C5AACC2102F0230031ECE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB86420393C026118BA8940 /* libPods-YHPlayerExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5AAE72102F0240031ECE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F614FA57200BFA980EE9A2 /* libPods-YHPlayerExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5AAF22102F0240031ECE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A59E4B9E2CAF77A2B27B79 /* libPods-YHPlayerExampleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B82CD7675E81000350EE37D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				861CA653159EF37347291C59 /* libPods-YHPlayerExample.a */,
+				DDE1E075BBA2616D61475EAA /* libPods-YHPlayerExampleTests.a */,
+				090DE36C54F15690F2318426 /* libPods-YHPlayerExampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		463D128B654DF59D0646E0C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36EEF2B91793EE2648A3C24F /* Pods-YHPlayerExample.debug.xcconfig */,
+				538886C4AA01FAC84B657ECD /* Pods-YHPlayerExample.release.xcconfig */,
+				20A2D32ECA9322BC022C60FE /* Pods-YHPlayerExampleTests.debug.xcconfig */,
+				81C31BEBE0958A2F5319C143 /* Pods-YHPlayerExampleTests.release.xcconfig */,
+				36D8D9015C926625888CB540 /* Pods-YHPlayerExampleUITests.debug.xcconfig */,
+				DB6710C1A8D0266D152183DD /* Pods-YHPlayerExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65C5AAC62102F0230031ECE3 = {
+			isa = PBXGroup;
+			children = (
+				65C5AAD12102F0230031ECE3 /* YHPlayerExample */,
+				65C5AAED2102F0240031ECE3 /* YHPlayerExampleTests */,
+				65C5AAF82102F0240031ECE3 /* YHPlayerExampleUITests */,
+				65C5AB242103323F0031ECE3 /* YHPlayer */,
+				65C5AAD02102F0230031ECE3 /* Products */,
+				463D128B654DF59D0646E0C3 /* Pods */,
+				0B82CD7675E81000350EE37D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65C5AAD02102F0230031ECE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AACF2102F0230031ECE3 /* YHPlayerExample.app */,
+				65C5AAEA2102F0240031ECE3 /* YHPlayerExampleTests.xctest */,
+				65C5AAF52102F0240031ECE3 /* YHPlayerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65C5AAD12102F0230031ECE3 /* YHPlayerExample */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AB1E210330A90031ECE3 /* YHPlayer */,
+				65C5AB1521032C720031ECE3 /* Classes */,
+				65C5AB0721032C720031ECE3 /* Supporting Files */,
+			);
+			path = YHPlayerExample;
+			sourceTree = "<group>";
+		};
+		65C5AAED2102F0240031ECE3 /* YHPlayerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AAEE2102F0240031ECE3 /* YHPlayerExampleTests.m */,
+				65C5AAF02102F0240031ECE3 /* Info.plist */,
+			);
+			path = YHPlayerExampleTests;
+			sourceTree = "<group>";
+		};
+		65C5AAF82102F0240031ECE3 /* YHPlayerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AAF92102F0240031ECE3 /* YHPlayerExampleUITests.m */,
+				65C5AAFB2102F0240031ECE3 /* Info.plist */,
+			);
+			path = YHPlayerExampleUITests;
+			sourceTree = "<group>";
+		};
+		65C5AB0721032C720031ECE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AB0A21032C720031ECE3 /* AppDelegate.h */,
+				65C5AB1221032C720031ECE3 /* AppDelegate.m */,
+				65C5AB0B21032C720031ECE3 /* Assets.xcassets */,
+				65C5AB1321032C720031ECE3 /* Info.plist */,
+				65C5AB0D21032C720031ECE3 /* LaunchScreen.storyboard */,
+				65C5AB1121032C720031ECE3 /* main.m */,
+				65C5AB0F21032C720031ECE3 /* Main.storyboard */,
+				65C5AB1421032C720031ECE3 /* ViewController.h */,
+				65C5AB0C21032C720031ECE3 /* ViewController.m */,
+				65C5AB0821032C720031ECE3 /* YHPlayerExample.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65C5AB1521032C720031ECE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		65C5AB1E210330A90031ECE3 /* YHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AB2E21033ED00031ECE3 /* YHPlayerConst.h */,
+				65634D7F21042EAE00DF59E8 /* YHPlayer.h */,
+				65634D8021042EAE00DF59E8 /* YHPlayer.m */,
+				65634D8221042F0000DF59E8 /* YHPlayerTopView.h */,
+				65634D8321042F0000DF59E8 /* YHPlayerTopView.m */,
+				65634D8521042F2D00DF59E8 /* YHPlayerBottomView.h */,
+				65634D8621042F2D00DF59E8 /* YHPlayerBottomView.m */,
+				65634D8821042FCC00DF59E8 /* YHPlayerLayerView.h */,
+				65634D8921042FCC00DF59E8 /* YHPlayerLayerView.m */,
+				65634D8B2104302B00DF59E8 /* YHProgressSlider.h */,
+				65634D8C2104302B00DF59E8 /* YHProgressSlider.m */,
+				65634D912104324800DF59E8 /* YHPlayerFailedView.h */,
+				65634D922104324800DF59E8 /* YHPlayerFailedView.m */,
+				65634D8E2104321C00DF59E8 /* YHPlayerFullScreenController.h */,
+				65634D8F2104321C00DF59E8 /* YHPlayerFullScreenController.m */,
+				65634D942104327400DF59E8 /* YHPlayerModel.h */,
+				65634D952104327400DF59E8 /* YHPlayerModel.m */,
+				65C5AB5921035A920031ECE3 /* Resources */,
+			);
+			path = YHPlayer;
+			sourceTree = SOURCE_ROOT;
+		};
+		65C5AB242103323F0031ECE3 /* YHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AB252103323F0031ECE3 /* Info.plist */,
+			);
+			path = YHPlayer;
+			sourceTree = "<group>";
+		};
+		65C5AB5921035A920031ECE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65C5AB5A21035AAB0031ECE3 /* YHPlayer.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65C5AACE2102F0230031ECE3 /* YHPlayerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C5AAFE2102F0240031ECE3 /* Build configuration list for PBXNativeTarget "YHPlayerExample" */;
+			buildPhases = (
+				6DC1F81A0BB87C72DF278332 /* [CP] Check Pods Manifest.lock */,
+				65C5AACB2102F0230031ECE3 /* Sources */,
+				65C5AACC2102F0230031ECE3 /* Frameworks */,
+				65C5AACD2102F0230031ECE3 /* Resources */,
+				4E5DD7623044EC56FEBAB4FA /* [CP] Embed Pods Frameworks */,
+				DB469A1BCAD1FFC6D7B620FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHPlayerExample;
+			productName = YHPlayerExample;
+			productReference = 65C5AACF2102F0230031ECE3 /* YHPlayerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65C5AAE92102F0240031ECE3 /* YHPlayerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C5AB012102F0240031ECE3 /* Build configuration list for PBXNativeTarget "YHPlayerExampleTests" */;
+			buildPhases = (
+				AE907F6A7E9477AB3FA456C1 /* [CP] Check Pods Manifest.lock */,
+				65C5AAE62102F0240031ECE3 /* Sources */,
+				65C5AAE72102F0240031ECE3 /* Frameworks */,
+				65C5AAE82102F0240031ECE3 /* Resources */,
+				75014A075169164E292C0FF1 /* [CP] Embed Pods Frameworks */,
+				6BC126E2D46A53C204197AE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C5AAEC2102F0240031ECE3 /* PBXTargetDependency */,
+			);
+			name = YHPlayerExampleTests;
+			productName = YHPlayerExampleTests;
+			productReference = 65C5AAEA2102F0240031ECE3 /* YHPlayerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65C5AAF42102F0240031ECE3 /* YHPlayerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C5AB042102F0240031ECE3 /* Build configuration list for PBXNativeTarget "YHPlayerExampleUITests" */;
+			buildPhases = (
+				8F0AC40D9549FB24A9A882A2 /* [CP] Check Pods Manifest.lock */,
+				65C5AAF12102F0240031ECE3 /* Sources */,
+				65C5AAF22102F0240031ECE3 /* Frameworks */,
+				65C5AAF32102F0240031ECE3 /* Resources */,
+				6AD80D0B89CF991C6DC3CAFA /* [CP] Embed Pods Frameworks */,
+				C4355DD6B78E1F4083DE46AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C5AAF72102F0240031ECE3 /* PBXTargetDependency */,
+			);
+			name = YHPlayerExampleUITests;
+			productName = YHPlayerExampleUITests;
+			productReference = 65C5AAF52102F0240031ECE3 /* YHPlayerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65C5AAC72102F0230031ECE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YH;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "万叶华";
+				TargetAttributes = {
+					65C5AACE2102F0230031ECE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					65C5AAE92102F0240031ECE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65C5AACE2102F0230031ECE3;
+					};
+					65C5AAF42102F0240031ECE3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65C5AACE2102F0230031ECE3;
+					};
+				};
+			};
+			buildConfigurationList = 65C5AACA2102F0230031ECE3 /* Build configuration list for PBXProject "YHPlayerExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65C5AAC62102F0230031ECE3;
+			productRefGroup = 65C5AAD02102F0230031ECE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65C5AACE2102F0230031ECE3 /* YHPlayerExample */,
+				65C5AAE92102F0240031ECE3 /* YHPlayerExampleTests */,
+				65C5AAF42102F0240031ECE3 /* YHPlayerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65C5AACD2102F0230031ECE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5AB1721032C720031ECE3 /* Assets.xcassets in Resources */,
+				65C5AB5B21035AAB0031ECE3 /* YHPlayer.bundle in Resources */,
+				65C5AB1A21032C720031ECE3 /* Main.storyboard in Resources */,
+				65C5AB1921032C720031ECE3 /* LaunchScreen.storyboard in Resources */,
+				65C5AB1D21032C720031ECE3 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5AAE82102F0240031ECE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5AAF32102F0240031ECE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E5DD7623044EC56FEBAB4FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHPlayerExample/Pods-YHPlayerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD80D0B89CF991C6DC3CAFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHPlayerExampleUITests/Pods-YHPlayerExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC126E2D46A53C204197AE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHPlayerExampleTests/Pods-YHPlayerExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC1F81A0BB87C72DF278332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YHPlayerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75014A075169164E292C0FF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHPlayerExampleTests/Pods-YHPlayerExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0AC40D9549FB24A9A882A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YHPlayerExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE907F6A7E9477AB3FA456C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YHPlayerExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4355DD6B78E1F4083DE46AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHPlayerExampleUITests/Pods-YHPlayerExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB469A1BCAD1FFC6D7B620FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHPlayerExample/Pods-YHPlayerExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65C5AACB2102F0230031ECE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65634D8421042F0000DF59E8 /* YHPlayerTopView.m in Sources */,
+				65634D962104327400DF59E8 /* YHPlayerModel.m in Sources */,
+				65634D932104324800DF59E8 /* YHPlayerFailedView.m in Sources */,
+				65634D8D2104302B00DF59E8 /* YHProgressSlider.m in Sources */,
+				65C5AB1821032C720031ECE3 /* ViewController.m in Sources */,
+				65634D8721042F2D00DF59E8 /* YHPlayerBottomView.m in Sources */,
+				65C5AB1C21032C720031ECE3 /* AppDelegate.m in Sources */,
+				65634D8A21042FCC00DF59E8 /* YHPlayerLayerView.m in Sources */,
+				65634D902104321C00DF59E8 /* YHPlayerFullScreenController.m in Sources */,
+				65634D8121042EAE00DF59E8 /* YHPlayer.m in Sources */,
+				65C5AB1B21032C720031ECE3 /* main.m in Sources */,
+				65C5AB1621032C720031ECE3 /* YHPlayerExample.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5AAE62102F0240031ECE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5AAEF2102F0240031ECE3 /* YHPlayerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65C5AAF12102F0240031ECE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C5AAFA2102F0240031ECE3 /* YHPlayerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65C5AAEC2102F0240031ECE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C5AACE2102F0230031ECE3 /* YHPlayerExample */;
+			targetProxy = 65C5AAEB2102F0240031ECE3 /* PBXContainerItemProxy */;
+		};
+		65C5AAF72102F0240031ECE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65C5AACE2102F0230031ECE3 /* YHPlayerExample */;
+			targetProxy = 65C5AAF62102F0240031ECE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65C5AB0D21032C720031ECE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C5AB0E21032C720031ECE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65C5AB0F21032C720031ECE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C5AB1021032C720031ECE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65C5AAFC2102F0240031ECE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65C5AAFD2102F0240031ECE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65C5AAFF2102F0240031ECE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36EEF2B91793EE2648A3C24F /* Pods-YHPlayerExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "YHPlayerExample/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwan.YHPlayerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65C5AB002102F0240031ECE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 538886C4AA01FAC84B657ECD /* Pods-YHPlayerExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "YHPlayerExample/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwan.YHPlayerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65C5AB022102F0240031ECE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A2D32ECA9322BC022C60FE /* Pods-YHPlayerExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHPlayerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwan.YHPlayerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHPlayerExample.app/YHPlayerExample";
+			};
+			name = Debug;
+		};
+		65C5AB032102F0240031ECE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81C31BEBE0958A2F5319C143 /* Pods-YHPlayerExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHPlayerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwan.YHPlayerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHPlayerExample.app/YHPlayerExample";
+			};
+			name = Release;
+		};
+		65C5AB052102F0240031ECE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D8D9015C926625888CB540 /* Pods-YHPlayerExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHPlayerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwan.YHPlayerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHPlayerExample;
+			};
+			name = Debug;
+		};
+		65C5AB062102F0240031ECE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB6710C1A8D0266D152183DD /* Pods-YHPlayerExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YHPlayerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanwan.YHPlayerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YHPlayerExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65C5AACA2102F0230031ECE3 /* Build configuration list for PBXProject "YHPlayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5AAFC2102F0240031ECE3 /* Debug */,
+				65C5AAFD2102F0240031ECE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C5AAFE2102F0240031ECE3 /* Build configuration list for PBXNativeTarget "YHPlayerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5AAFF2102F0240031ECE3 /* Debug */,
+				65C5AB002102F0240031ECE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C5AB012102F0240031ECE3 /* Build configuration list for PBXNativeTarget "YHPlayerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5AB022102F0240031ECE3 /* Debug */,
+				65C5AB032102F0240031ECE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C5AB042102F0240031ECE3 /* Build configuration list for PBXNativeTarget "YHPlayerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C5AB052102F0240031ECE3 /* Debug */,
+				65C5AB062102F0240031ECE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65C5AB0821032C720031ECE3 /* YHPlayerExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65C5AB0921032C720031ECE3 /* YHPlayerExample.xcdatamodel */,
+			);
+			currentVersion = 65C5AB0921032C720031ECE3 /* YHPlayerExample.xcdatamodel */;
+			path = YHPlayerExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65C5AAC72102F0230031ECE3 /* Project object */;
+}
